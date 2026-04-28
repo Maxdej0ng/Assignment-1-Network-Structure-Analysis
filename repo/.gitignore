@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*.sqlite
+*.zip
+*.pkl
+networks/*
+networks
+img/*
+img

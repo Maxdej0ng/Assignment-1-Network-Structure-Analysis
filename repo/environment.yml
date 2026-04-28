@@ -1,0 +1,24 @@
+# name: pt-networks
+# dependencies:
+#   - python=3.8.* # changed from python==3.8
+#   - pip
+#   - pip:
+#     - -e ./osmread-master
+#     - -e ./gtfspy-master
+#     - bokeh
+#     - jupyter
+#     - thefuzz
+#     - geopy
+name: pt-networks
+channels:
+  - conda-forge
+dependencies:
+  - python==3.8.*
+  - jupyter
+  - pip
+  - pip:
+    - -e ./osmread-master
+    - -e ./gtfspy-master
+    - bokeh
+    - thefuzz
+    - geopy
